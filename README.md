@@ -6,6 +6,21 @@ It's my basis for personal projects and learning rust/embedded rust. I thought t
 ### State
 Work in Progress.
 
+### Dependencies
+
+I'm using these in my Cargo.toml.
+
+```console
+[dependencies]
+panic-halt = "0.2.0"
+cortex-m = "0.7.0"
+cortex-m-rt = "0.6.13"
+
+[dependencies.stm32f4]
+version = "0.12.1"
+features = ["stm32f401", "rt"]
+```
+
 ### Usage
 
 Check out the Rust Discovery book for general setup. To use the files in this repo, follow the steps below.
