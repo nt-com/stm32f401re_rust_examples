@@ -4,7 +4,15 @@ This repo contains code for my personal minimal working examples of peripheral a
 It's my basis for personal projects and learning rust/embedded rust. I thought this may be useful for other people, so I made it publically accessible.
 
 ### State
-Work in Progress.
+Work in Progress. What is done so far:
+
+- GPIO Output
+- GPIO Input
+- GPIO Input with Interrupt
+- 32-bit Timer with Interrupt
+- ADC Single Conversion
+
+To follow: I2C, UART, more ADC stuff, SPI, ...
 
 ### Dependencies
 
