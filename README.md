@@ -11,6 +11,7 @@ Work in Progress. What is done so far:
 - GPIO Input with Interrupt
 - 32-bit Timer with Interrupt
 - ADC Single Conversion
+- PWM in PWM Mode 1
 
 To follow: I2C, UART, more ADC stuff, SPI, ...
 
